@@ -1,9 +1,17 @@
 ---@diagnostic disable-next-line : duplicate-set-field
 love.load = function()
 	Pigui = require "pigui"
-	b = Pigui.Button.new()
+	Color = Pigui.Color
+	Style = Pigui.Style
 
-	love.graphics.setBackgroundColor(0.6, 0.3, 0.8)
+	b = Pigui.Button.new({
+		x = 100,
+		y = 100,
+		width = 200,
+		height = 100,
+	})
+
+	love.graphics.setBackgroundColor(0.4, 0.1, 0.6)
 end
 ---@diagnostic disable-next-line : duplicate-set-field
 love.update = function(dt)
