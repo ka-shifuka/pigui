@@ -1,3 +1,3 @@
 # Pi-GUI 
-<img scr="Docs/icon.png"></img>
+![icon](Docs/icon.png)
 Pi-GUI is a gui library for LÖVE Game Framework
